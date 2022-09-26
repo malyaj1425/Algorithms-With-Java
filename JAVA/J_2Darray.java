@@ -40,3 +40,4 @@ public class J_2Darray {
         A.add(B);
     }
 }
+
