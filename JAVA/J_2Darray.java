@@ -3,7 +3,7 @@
 import java.util.Scanner;
 class Matrix{
     private int mat[][]=new int[3][3];
-    private int i,j;
+    private int i,j,k;
     public void input(){
         Scanner sc=new Scanner(System.in);
         for(i=0;i<3;i++){
@@ -25,6 +25,16 @@ class Matrix{
         for(i=0;i<3;i++){
             for(j=0;j<3;j++){
                 System.out.print(mat[i][j]+A.mat[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
+    public void multi(Matrix A){
+        for(i=0;i<3;i++){
+            for(j=0;j<3;j++){
+                for(k=0;j<3;k++){
+                    
+                }
             }
             System.out.println();
         }
