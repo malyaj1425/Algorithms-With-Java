@@ -11,18 +11,25 @@ public class checkpalindrom {
         System.out.println("Enter Elements Of Array:");
         int arr[]=new int[10];
         int x=0;
-        for(int i=0;i<10;i++)
-        {
-            arr[i]=sc.nextInt();
-        }
-        for(int i=0;i<10;i++){
-            if(ispal(Integer.toString(arr[i]), x)){
-                System.out.println(arr[i]+" is palindrome");
-            }
-            else{
-                System.out.println(arr[i]+" is not palindrome");
-            }
-        }
+        // for(int i=0;i<10;i++)
+        // {
+        //     arr[i]=sc.nextInt();
+        // }
+        // for(int i=0;i<10;i++){
+        //     if(ispal(Integer.toString(arr[i]), x)){
+        //         System.out.println(arr[i]+" is palindrome");
+        //     }
+        //     else{
+        //         System.out.println(arr[i]+" is not palindrome");
+        //     }
+        // }
+
+        int number=1234321;
+        String phrase="abbcbca";
+
+        
+
+
 
     }
 }
