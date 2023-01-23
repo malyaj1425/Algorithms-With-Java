@@ -1,1 +1,1 @@
-valuesize-
+tree.inorder();
